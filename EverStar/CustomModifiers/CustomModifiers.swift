@@ -33,13 +33,12 @@ struct CustomTabBarStyle: TabBarStyle {
     
     public func tabBar(with geometry: GeometryProxy, itemsContainer: @escaping () -> AnyView) -> some View {
         itemsContainer()
-            .background(Color("color.tab.bar.background"))
-            .cornerRadius(25.0)
-            .frame(height: 60.0)
-            .padding(.horizontal, 40.0)
-            .padding(.bottom, 16.0 + geometry.safeAreaInsets.bottom)
+            .background(LinearGradient(gradient: Gradient(colors: [Color(.black),Color(.systemPurple)]), startPoint: .leading, endPoint: .trailing))
+//            .cornerRadius(25.0)
+            .frame(height: 80.0)
+//            .padding(.horizontal, 40.0)
+//            .padding(.bottom, 16.0 + geometry.safeAreaInsets.bottom)
     }
-    
 }
 
 struct CustomTabItemStyle: TabItemStyle {
@@ -53,7 +52,7 @@ struct CustomTabItemStyle: TabItemStyle {
             }
             
             Image(systemName: icon)
-                .foregroundColor(isSelected ? .white : Color("color.tab.item.foreground"))
+                .foregroundColor(.white)
                 .frame(width: 40, height: 40)
                 
         }

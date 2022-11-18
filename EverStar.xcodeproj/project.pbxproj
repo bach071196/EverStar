@@ -11,15 +11,15 @@
 		8AFCBDFA292492E20091BF2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBDF9292492E20091BF2C /* ContentView.swift */; };
 		8AFCBDFC292492E40091BF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCBDFB292492E40091BF2C /* Assets.xcassets */; };
 		8AFCBDFF292492E40091BF2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCBDFE292492E40091BF2C /* Preview Assets.xcassets */; };
-		8AFCBE06292493930091BF2C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE05292493930091BF2C /* HomeView.swift */; };
-		8AFCBE08292493A70091BF2C /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE07292493A70091BF2C /* ChatsView.swift */; };
+		8AFCBE06292493930091BF2C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE05292493930091BF2C /* LoginView.swift */; };
+		8AFCBE08292493A70091BF2C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE07292493A70091BF2C /* ChatView.swift */; };
 		8AFCBE0B292496350091BF2C /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE0A292496350091BF2C /* CustomModifiers.swift */; };
 		8AFCBE0D29249D990091BF2C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE0C29249D990091BF2C /* MainView.swift */; };
 		8AFCBE132924BAE00091BF2C /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 8AFCBE122924BAE00091BF2C /* TabBar */; };
 		8AFCBE162924CF350091BF2C /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE152924CF350091BF2C /* ContactModel.swift */; };
 		8AFCBE182924CFE50091BF2C /* MesseageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE172924CFE50091BF2C /* MesseageModel.swift */; };
 		8AFCBE1A2924D6EF0091BF2C /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE192924D6EF0091BF2C /* ContactView.swift */; };
-		8AFCBE1C2924E0EA0091BF2C /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE1B2924E0EA0091BF2C /* ContactRow.swift */; };
+		8AFCBE1C2924E0EA0091BF2C /* ListChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBE1B2924E0EA0091BF2C /* ListChatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,14 +28,14 @@
 		8AFCBDF9292492E20091BF2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AFCBDFB292492E40091BF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AFCBDFE292492E40091BF2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8AFCBE05292493930091BF2C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		8AFCBE07292493A70091BF2C /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		8AFCBE05292493930091BF2C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8AFCBE07292493A70091BF2C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		8AFCBE0A292496350091BF2C /* CustomModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		8AFCBE0C29249D990091BF2C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8AFCBE152924CF350091BF2C /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		8AFCBE172924CFE50091BF2C /* MesseageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesseageModel.swift; sourceTree = "<group>"; };
 		8AFCBE192924D6EF0091BF2C /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
-		8AFCBE1B2924E0EA0091BF2C /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		8AFCBE1B2924E0EA0091BF2C /* ListChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A1DD89029272877006F8926 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCBE05292493930091BF2C /* LoginView.swift */,
+				8AFCBE0C29249D990091BF2C /* MainView.swift */,
+				8A1DD89129272887006F8926 /* ChatsView */,
+				8A1DD892292728AD006F8926 /* ContactsView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A1DD89129272887006F8926 /* ChatsView */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCBE1B2924E0EA0091BF2C /* ListChatsView.swift */,
+				8AFCBE07292493A70091BF2C /* ChatView.swift */,
+			);
+			path = ChatsView;
+			sourceTree = "<group>";
+		};
+		8A1DD892292728AD006F8926 /* ContactsView */ = {
+			isa = PBXGroup;
+			children = (
+				8AFCBE192924D6EF0091BF2C /* ContactView.swift */,
+			);
+			path = ContactsView;
+			sourceTree = "<group>";
+		};
 		8AFCBDEB292492E20091BF2C = {
 			isa = PBXGroup;
 			children = (
-				8AFCBE07292493A70091BF2C /* ChatsView.swift */,
 				8AFCBDF6292492E20091BF2C /* EverStar */,
 				8AFCBDF5292492E20091BF2C /* Products */,
 			);
@@ -70,14 +97,11 @@
 		8AFCBDF6292492E20091BF2C /* EverStar */ = {
 			isa = PBXGroup;
 			children = (
-				8AFCBE142924CEF90091BF2C /* Model */,
-				8AFCBE09292495800091BF2C /* CustomModifiers */,
 				8AFCBDF7292492E20091BF2C /* EverStarApp.swift */,
 				8AFCBDF9292492E20091BF2C /* ContentView.swift */,
-				8AFCBE05292493930091BF2C /* HomeView.swift */,
-				8AFCBE0C29249D990091BF2C /* MainView.swift */,
-				8AFCBE192924D6EF0091BF2C /* ContactView.swift */,
-				8AFCBE1B2924E0EA0091BF2C /* ContactRow.swift */,
+				8A1DD89029272877006F8926 /* View */,
+				8AFCBE142924CEF90091BF2C /* Model */,
+				8AFCBE09292495800091BF2C /* CustomModifiers */,
 				8AFCBDFB292492E40091BF2C /* Assets.xcassets */,
 				8AFCBDFD292492E40091BF2C /* Preview Content */,
 			);
@@ -185,13 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AFCBE08292493A70091BF2C /* ChatsView.swift in Sources */,
+				8AFCBE08292493A70091BF2C /* ChatView.swift in Sources */,
 				8AFCBE182924CFE50091BF2C /* MesseageModel.swift in Sources */,
 				8AFCBE0D29249D990091BF2C /* MainView.swift in Sources */,
 				8AFCBE0B292496350091BF2C /* CustomModifiers.swift in Sources */,
-				8AFCBE1C2924E0EA0091BF2C /* ContactRow.swift in Sources */,
+				8AFCBE1C2924E0EA0091BF2C /* ListChatsView.swift in Sources */,
 				8AFCBE1A2924D6EF0091BF2C /* ContactView.swift in Sources */,
-				8AFCBE06292493930091BF2C /* HomeView.swift in Sources */,
+				8AFCBE06292493930091BF2C /* LoginView.swift in Sources */,
 				8AFCBE162924CF350091BF2C /* ContactModel.swift in Sources */,
 				8AFCBDFA292492E20091BF2C /* ContentView.swift in Sources */,
 				8AFCBDF8292492E20091BF2C /* EverStarApp.swift in Sources */,
@@ -336,7 +360,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Celebe.vn.EverStar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverStar.vn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -368,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Celebe.vn.EverStar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EverStar.vn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

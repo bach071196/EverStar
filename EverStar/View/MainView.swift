@@ -38,10 +38,10 @@ struct MainView: View {
     
     var body: some View {
         TabBar(selection: $selection, visibility: $visibility) {
-            ContactView()
-            .tabItem(for: Item.first)
+            ContactView(tabBarVisibility: $visibility)
+                .tabItem(for: Item.first)
             
-            Text("List mes")
+            ListChatsView(tabBarVisibility: $visibility)
                 .tabItem(for: Item.second)
             
             Text("setting")

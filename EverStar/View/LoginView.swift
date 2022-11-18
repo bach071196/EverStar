@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  LoginView.swift
 //  EverStar
 //
 //  Created by bach on 16/11/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct LoginView: View {
     @Binding var isLogin : Bool
     
     @State var account = ""
@@ -69,8 +69,8 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(isLogin: .constant(false))
+        LoginView(isLogin: .constant(false))
     }
 }

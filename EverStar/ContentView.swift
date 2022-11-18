@@ -15,7 +15,7 @@ struct ContentView: View {
                 MainView()
             }
             else{
-                HomeView(isLogin: $isLogin)
+                LoginView(isLogin: $isLogin)
             }
         }
     }
