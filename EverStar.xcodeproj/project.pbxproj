@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA1F928292B6806000EDA70 /* KeyboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA1F927292B6806000EDA70 /* KeyboardFollower.swift */; };
 		8AFCBDF8292492E20091BF2C /* EverStarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBDF7292492E20091BF2C /* EverStarApp.swift */; };
 		8AFCBDFA292492E20091BF2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFCBDF9292492E20091BF2C /* ContentView.swift */; };
 		8AFCBDFC292492E40091BF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFCBDFB292492E40091BF2C /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AA1F927292B6806000EDA70 /* KeyboardFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFollower.swift; sourceTree = "<group>"; };
 		8AFCBDF4292492E20091BF2C /* EverStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AFCBDF7292492E20091BF2C /* EverStarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverStarApp.swift; sourceTree = "<group>"; };
 		8AFCBDF9292492E20091BF2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			path = ContactsView;
 			sourceTree = "<group>";
 		};
+		8AA1F926292B6787000EDA70 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8AA1F927292B6806000EDA70 /* KeyboardFollower.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		8AFCBDEB292492E20091BF2C = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 			children = (
 				8AFCBDF7292492E20091BF2C /* EverStarApp.swift */,
 				8AFCBDF9292492E20091BF2C /* ContentView.swift */,
+				8AA1F926292B6787000EDA70 /* Utilities */,
 				8A1DD89029272877006F8926 /* View */,
 				8AFCBE142924CEF90091BF2C /* Model */,
 				8AFCBE09292495800091BF2C /* CustomModifiers */,
@@ -211,6 +222,7 @@
 			files = (
 				8AFCBE08292493A70091BF2C /* ChatView.swift in Sources */,
 				8AFCBE182924CFE50091BF2C /* MesseageModel.swift in Sources */,
+				8AA1F928292B6806000EDA70 /* KeyboardFollower.swift in Sources */,
 				8AFCBE0D29249D990091BF2C /* MainView.swift in Sources */,
 				8AFCBE0B292496350091BF2C /* CustomModifiers.swift in Sources */,
 				8AFCBE1C2924E0EA0091BF2C /* ListChatsView.swift in Sources */,
@@ -367,7 +379,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -399,7 +411,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

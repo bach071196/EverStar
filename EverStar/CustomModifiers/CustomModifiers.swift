@@ -36,6 +36,7 @@ struct CustomTabBarStyle: TabBarStyle {
             .background(LinearGradient(gradient: Gradient(colors: [Color(.black),Color(.systemPurple)]), startPoint: .leading, endPoint: .trailing))
 //            .cornerRadius(25.0)
             .frame(height: 80.0)
+            .edgesIgnoringSafeArea(.bottom)
 //            .padding(.horizontal, 40.0)
 //            .padding(.bottom, 16.0 + geometry.safeAreaInsets.bottom)
     }

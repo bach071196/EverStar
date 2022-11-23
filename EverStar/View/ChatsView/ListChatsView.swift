@@ -16,19 +16,22 @@ struct ListChatsView: View {
     var body: some View {
         NavigationView {
             List(listContacts) { contact in
-                
+#if os(iOS)
+
                 NavigationLink(destination:
-                    ChatView(myID: "user0", data: contact)
+                                ChatView(myID: "user0", data: contact)
                     .onAppear(){
                         tabBarVisibility.toggle()
                     }
                     .onDisappear(){
                         tabBarVisibility.toggle()
                     }
+                               
                 )
                 {
                     ListChatsRow(contact: contact)
                 }
+#endif
             }
             .navigationBarTitle(Text("Contacts"))
         }

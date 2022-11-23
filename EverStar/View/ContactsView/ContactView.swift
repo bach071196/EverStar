@@ -8,11 +8,11 @@
 import SwiftUI
 import TabBar
 // dump data
-let mes11 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content", time: "01:01")
-let mes12 = Message(fromID: "user1", toID: "user0", content: " Message content Message content Message content", time: "01:02")
-let mes13 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content", time: "01:03")
-let mes14 = Message(fromID: "user1", toID: "user0", content: " Message content Message content Message content", time: "01:04")
-let mes15 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content", time: "01:05")
+let mes11 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content 1", time: "01:01")
+let mes12 = Message(fromID: "user1", toID: "user0", content: " Message content Message content Message content 2", time: "01:02")
+let mes13 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content 3", time: "01:03")
+let mes14 = Message(fromID: "user1", toID: "user0", content: " Message content Message content Message content 4", time: "01:04")
+let mes15 = Message(fromID: "user0", toID: "user1", content: " Message content Message content Message content 5", time: "01:05")
 
 
 let mes21 = Message(fromID: "user0", toID: "user2", content: " Message content Message content Message content", time: "02:01")
@@ -47,7 +47,7 @@ struct ContactView: View {
             List(listContacts) { contact in
                 
                 NavigationLink(destination:
-                    ChatView(myID: "user1", data: contact)
+                                ChatView(myID: "user0", data: contact)
                     .onAppear(){
                         tabBarVisibility.toggle()
                     }
